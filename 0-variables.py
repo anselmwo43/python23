@@ -45,6 +45,7 @@ hello = hello.capitalize()
 
 number = "100"
 
+
 # print(hello.isdigit())
     # isalpha
 # print(hello.isalpha())

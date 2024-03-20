@@ -1,0 +1,1 @@
+# The capability of a class to derive properties and characteristics from another class is called Inheritance.
