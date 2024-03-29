@@ -3,38 +3,37 @@ import module
 
 #imports
 
-# print(module.user_name)
+print(module.user_name)
 
 # math functions
 floatNumber = 3.454545
 intNumber = 3
 
-# print(intNumber)
     # round
-# print(round(floatNumber))
-# print(round(floatNumber, 2))
+print(round(floatNumber))
+print(round(floatNumber, 2))
 
     # math.ceil
-# print(math.ceil(floatNumber))
+print(math.ceil(floatNumber))
 
     # math.floor
-# print(math.floor(floatNumber))
+print(math.floor(floatNumber))
 
     # abs
-# print(abs(-30))
+print(abs(-30))
 
     # pow
-# print(pow(2, 3), 2**3)
+print(pow(2, 3), 2**3)
 
     # math.sqrt
-# print(math.sqrt(8))
+print(math.sqrt(8))
 
     # max
-# print(max(2,3,4,4,5))
+print(max(2,3,4,4,5))
 
     # min
 list_numbers = [0, 2, 3, 4, 4]
-# print(min(list_numbers))
+print(min(list_numbers))
 
     # divmod
 print(divmod(4, 5)) # form: (dividend, divider) return: (quot, remainder)
