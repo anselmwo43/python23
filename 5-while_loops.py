@@ -25,9 +25,16 @@ input("What's your name?")
 print("Bye")
 """
 
+# Yared
+# Yare
+# Yar
+# Ya
+# Y
 name = "Yared"
-i = 5
+i = len(name)
 
-# while name:
-#     i = i - 1
-#     print(name[:i])
+while name:
+    name = name[:i]
+    print(name)
+    i -= 1 # i = i - 1 
+    # i += 6 > i = i + 6

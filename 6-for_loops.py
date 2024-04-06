@@ -32,7 +32,7 @@ for i in list_var[:2]:
 
 # users = [1, 2, ["Sinidu", "Helina"]]
 admins = [["Yared", "100", "1.9"], ["Sinidu", "1", "1"], ["Helina", ".5", "3"],]
-admins = [{"name": "Yared", "age": 11}, {"name": "Sinidu", "age": 100}, {"name": "Helina", "age": 100},]
+admins = [{"name": "Yared", "age": 11,}, {"name": "Sinidu", "age": 100}, {"name": "Helina", "age": 100},]
 
 for user in users:
     print(user)
