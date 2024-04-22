@@ -27,7 +27,7 @@ for name in names:
     activity = ["inactive", "active"]
     index = random.randint(0, 1)
     status[name] = activity[index]
-    
+
 print(status)
 
 """
@@ -59,15 +59,21 @@ print(status)
     "name": "Yared",
     "age": "23",
     "username": "yared",
-    "email": "jaredyared83@gmail.com",
+    "email": "jaredyared83@gmail.com"
 }]
 """
-
+# create 5 users with the same information
 for i in range(5):
     users.append(user.copy())
 
+
+# change the names of users
 for user, name in zip(users, names):
-    print(user, name)
     user["name"] = name
+
+# change the status of users
+for user in users:
+    user["status"] = status[user["name"]]
+
 
 print(users)
