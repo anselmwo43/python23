@@ -81,7 +81,7 @@ for user in users:
     user["email"] = user["name"] + str(randint) + "@gmail.com"
     
     # username update
-    
+    user["username"] = user["name"] + str(randint)
 
 
 print(users)
