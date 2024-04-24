@@ -75,5 +75,13 @@ for user, name in zip(users, names):
 for user in users:
     user["status"] = status[user["name"]]
 
+# assign emails corresponding to names
+for user in users:
+    randint = random.randint(10, 20)
+    user["email"] = user["name"] + str(randint) + "@gmail.com"
+    
+    # username update
+    
+
 
 print(users)
