@@ -77,3 +77,12 @@ def multiply_ints(*args) -> int:
     return mul
 
 # recursion
+def recurring_adder(num) -> int:
+    if num > 0:
+        summation = num + recurring_adder(num - 1)
+    else:
+        return 0
+    # summation = 3 + (2 + (1 + 0))
+    return summation
+
+print(recurring_adder(3))
